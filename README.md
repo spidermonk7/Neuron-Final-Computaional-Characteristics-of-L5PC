@@ -1,7 +1,12 @@
 # Neuron-Final-Computaional-Characteristics-of-L5PC
 
-![image](https://github.com/spidermonk7/Neuron-Final-Computaional-Characteristics-of-L5PC/assets/98212025/6afd1819-50e8-407b-84ee-34b697b5e9db)
+![git_demo](https://github.com/spidermonk7/Neuron-Final-Computaional-Characteristics-of-L5PC/assets/98212025/492bb7ba-7b38-4d53-9898-f769dff46fd8)
 
+This is the code for report.pdf, aims at discussing the computational robustness of L5b PC detailed neuron model(presented by (Hay et.al 2011)[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002107]). We randomly map spike trains under different distributions to a single detailed neuron(in form of synapse input), define and calculate MSE and AWE for measuring the robustness. Our experimental results indicate that: 
+
+* a tall-PC neuron is naturally suitable for handling information with different robustness(On apical and basal dendrites).
+* the L5b PC prefer to handle highly clustered spike signals(i.e. better laplacian distribution than uniform distribution)
+  
 
 
 # Quick Start:
