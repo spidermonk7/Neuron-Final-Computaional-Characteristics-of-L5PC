@@ -27,16 +27,17 @@ And also, here are some implemented arguments which could be helpful:
     parser.add_argument('--scale', type=float, default=75, help='the scale of the spike train')
 
 
-| args      | --help |
-| ----------- | ----------- |
-| --seed      | random seed       |
-| --start_time   | start time of the spike train        |
-| --end_time  |   end time of the spike train     |
-|  --spike_train_distribution  |  distribution of spike train: must in [normal, laplacian, uniform]      |
-| --noise_distribution   |   distribution of noise: must in [normal, laplacian, uniform]  |
-| --spike_numbers   |     the number of spikes in each train   |
-|  --train_numbser  |     the number of spike trian   |
-|  --noise_level  |   the level of the noise     |
-|  --apic_weight  |   the weight of apical synapse     |
-|  --basal_weight  |  the weight of basal synapse      |
-|  --scale  |   the scale of the spike train(Only used for laplacian distribution) |
+
+| args      | --help |      default |
+| ----------- | ----------- | ----------- | 
+| --seed      | random seed       | 200|
+| --start_time   | start time of the spike train        |150|
+| --end_time  |   end time of the spike train     |600|
+|  --spike_train_distribution  |  distribution of spike train: must in [normal, laplacian, uniform]      |normal|
+| --spike_numbers   |     the number of spikes in each train   | 10|
+|  --train_numbser  |     the number of spike trian   |50|
+| --noise_distribution   |   distribution of noise: must in [normal, laplacian, uniform]  |uniform|
+|  --noise_level  |   the level of the noise     |1|
+|  --apic_weight  |   the weight of apical synapse     |0.1|
+|  --basal_weight  |  the weight of basal synapse      |0.1|
+|  --scale  |   the scale of the spike train(Only used for laplacian distribution) |75|
